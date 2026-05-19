@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica OdontoCare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>OdontoCare</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#agendamento">Agendamento</a>
+      <a href="#api">API</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h2>Cuide do seu sorriso com segurança e tecnologia</h2>
+      <p>Sistema web para gerenciamento de pacientes, dentistas e consultas odontológicas.</p>
+      <a href="#agendamento" class="btn">Agendar consulta</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="section">
+    <h2>Sobre a Clínica</h2>
+    <p>
+      A OdontoCare é uma clínica odontológica focada em atendimento organizado,
+      humanizado e eficiente, utilizando tecnologia para melhorar o controle de consultas,
+      pacientes e profissionais.
+    </p>
+  </section>
+
+  <section id="servicos" class="section cards">
+    <h2>Serviços</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Limpeza Dental</h3>
+        <p>Prevenção e cuidado com a saúde bucal.</p>
+      </div>
+
+      <div class="card">
+        <h3>Ortodontia</h3>
+        <p>Tratamentos com aparelhos e alinhadores.</p>
+      </div>
+
+      <div class="card">
+        <h3>Clareamento</h3>
+        <p>Procedimentos estéticos para melhorar o sorriso.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="agendamento" class="section">
+    <h2>Agendamento</h2>
+    <p>
+      O sistema permite cadastrar pacientes, dentistas e consultas por meio de uma API REST
+      integrada com banco de dados MySQL.
+    </p>
+
+    <div class="form-box">
+      <input type="text" placeholder="Nome do paciente">
+      <input type="text" placeholder="Telefone">
+      <input type="date">
+      <button>Simular agendamento</button>
+    </div>
+  </section>
+
+  <section id="api" class="section api">
+    <h2>API REST do Projeto</h2>
+    <p>Backend desenvolvido com Node.js, Express, Prisma, MySQL e JWT.</p>
+
+    <ul>
+      <li><strong>POST</strong> /auth/register — Cadastro de usuário</li>
+      <li><strong>POST</strong> /auth/login — Login com JWT</li>
+      <li><strong>GET</strong> /patients — Listar pacientes</li>
+      <li><strong>POST</strong> /dentists — Cadastrar dentistas</li>
+      <li><strong>POST</strong> /appointments — Criar consultas</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2026 OdontoCare — Projeto Acadêmico de Aplicações Web em Camadas</p>
+  </footer>
+
+</body>
+</html>
