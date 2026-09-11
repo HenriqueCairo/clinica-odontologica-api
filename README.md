@@ -56,35 +56,7 @@ src/
 - GET /appointments
 - POST /appointments
 
-## Como executar o projeto
 
-### Instalar dependências
-
-
-npm install
-
-
-### Configurar banco de dados
-
-Criar arquivo `.env`:
-
-```env
-DATABASE_URL="mysql://root:senha@localhost:3306/clinica_odontologica"
-JWT_SECRET="segredo"
-PORT=3000
-```
-
-### Rodar migrations
-
-```bash
-npx prisma migrate dev
-```
-
-### Iniciar servidor
-
-```bash
-npm run dev
-```
 
 ## Front-end
 
