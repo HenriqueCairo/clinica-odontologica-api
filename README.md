@@ -57,7 +57,6 @@ src/
 - POST /appointments
 
 ## Como executar o projeto
-
 ### Instalar dependências
 
 ```bash
