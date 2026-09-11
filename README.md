@@ -57,11 +57,12 @@ src/
 - POST /appointments
 
 ## Como executar o projeto
+
 ### Instalar dependências
 
-```bash
+
 npm install
-```
+
 
 ### Configurar banco de dados
 
